@@ -1,4 +1,7 @@
 @media screen and (max-width: 39.9375em) {
+  .content {
+    margin-bottom: 150px;
+  }
   .grant-features {
     margin: 0 auto;
     width: 40%;    
