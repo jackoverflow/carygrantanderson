@@ -1,10 +1,19 @@
 @media screen and (max-width: 39.9375em) {
+   h1.logo {
+      font-size: 30px!important;
+   }
+   .header {       
+       background-position: 8% 100%!important;
+   }
+   ul.links {
+       margin-bottom: 20px;
+   }
+   ul.links li {
+       display: block;
+       margin: 0;
+   }
   .content {
     margin-bottom: 150px;
-  }
-  .grant-features {
-    margin: 0 auto;
-    width: 40%;    
   }
   .images {
     margin: 0 auto;    
@@ -181,6 +190,16 @@
 }
 
 @media only screen and (min-width: 40.063em) and (max-width: 64em) { 
+   .header {       
+       background-position: 65% 100%!important;
+    }
+    ul.links {
+        margin-bottom: 20px;
+    }
+    .images ul li {
+        display: block!important;        
+        margin: 15px 0;
+    }
     .topbar .main-menu {
         display: none;
     }
